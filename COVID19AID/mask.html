@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{
+			 box-sizing: border-box;
+			 margin: 0;
+			 padding: 0;
+
+		}
+		.navbar {
+	background-color: lightblue;
+	border-radius: 4px;
+
+}
+.navbar ul{
+	overflow: auto;
+}
+.navbar li {
+	float: left;
+	list-style: none;
+	padding: 8px 5px;
+	text-align: center;
+	margin: 3px 3px;
+
+
+}
+.navbar a {
+	text-decoration: none;
+	color: black;
+}
+.search {
+	 float: right;
+
+	padding: 20px 20px;
+
+}
+		h1 {
+			text-align: center;
+			 background-color: red;
+			 padding: 15px;
+			}
+			h3 {
+			font-family: verdana;
+			text-align: center;
+			padding: 20px;
+			border: 5px solid black;
+			background-color: rgb(179, 180, 186);
+			border-radius: 4px;
+			}
+
+			.mask1 img {
+				float: left;
+				width: 33%;
+				margin-left: 40px;
+			}
+			.column {
+  float: left;
+  width: 27%;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	</style>
+	<title>Covid 19 Aid</title>
+</head>
+<body>
+	<h1>Covid 19 Aid</h1>
+	<nav class="navbar">
+		<ul>
+			
+			<li><a href="covid19 aid.html">COVID-19 <br> AID</a> </li>
+			<li><a href="mask.html">MASK</a> </li>
+			<li><a href="handsanitizer.html">HAND <br>SANITIZER</a> </li>
+			<li><a href="o2conc.html">OXYGEN <br>CONCENTRATOR</a> </li>
+			
+			<li><a href="essass.html">ESSENTIAL<br> ASSCESSORIES</a> </li>
+			<div class="search">
+				<input type="text" name="search" id="search" placeholder="Search this website">
+				
+			</div>
+		</ul>
+
+		
+	</nav>
+	<h3>M A S K </h3>
+	<br>
+	<br>
+	<br>
+	<div class="row">
+  <div class="column" id="pd1">
+    <img src="mpu3.jpg" alt="Snow" style="width:100%">
+    <figcaption>PUMA Adjustable <br>Face Mask Set of Two</figcaption>
+    <figcaption>₹599</figcaption>
+	<a href="pg.html" class="button">Buy</a>
+  </div>
+  <div class="column" id="pd2">
+    <img src="mpu2.jpg" alt="Forest" style="width:100%;">
+    <figcaption>PUMA Adjustable <br>Face Mask Set of Two</figcaption>
+    <figcaption>₹499</figcaption>
+	<a href="pg.html" class="button">Buy</a>
+  </div>
+  <div class="column" id="pd3">
+    <img src="mpu1.jpg" alt="Mountains" style="width:100%">
+    <figcaption>PUMA Adjustable <br>Face Mask Set of Two</figcaption>
+    <figcaption>₹399</figcaption>
+	<a href="pg.html" class="button">Buy</a>
+  </div>
+</div>
+<script>
+	document.getElementById("pd1").addEventListener("click", function() {
+  alert("if you want to buy this product then click ok below");
+});
+document.getElementById("pd2").addEventListener("click", function() {
+  alert("if you want to buy this product then click ok below");
+});
+document.getElementById("pd3").addEventListener("click", function() {
+  alert("if you want to buy this product then click ok below");
+});
+</script>
+</body>
+</html>
